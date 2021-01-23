@@ -43,8 +43,11 @@ class Game {
         // display the player name and distance
         for(var plr in allPlayers){
           if(plr==="player"+player.index){
-            fill("black");
+            fill("red");
             
+          }
+          else{
+            fill("black")
           }
         display_position+=20;
         textSize(15);
